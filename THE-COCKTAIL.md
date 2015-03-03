@@ -14,18 +14,17 @@
     "string#{expr}"
     ```
 
-* Multi-line method chaining using trailing dot:
+* Multi-line method chaining using leading dot:
 
-  * **(Option B)** When continuing a chained method invocation on another line,
-    include the `.` on the first line to indicate that the
-    expression continues.
+  * **(Option A)** When continuing a chained method invocation on
+    another line keep the `.` on the second line.
 
     ```Ruby
-    # bad - need to read ahead to the second line to know that the chain continues
-    one.two.three
-      .four
-
-    # good - it's immediately clear that the expression continues beyond the first line
+    # bad - need to consult first line to understand second line
     one.two.three.
       four
+
+    # good - it's immediately clear what's going on the second line
+    one.two.three
+      .four
     ```
