@@ -55,5 +55,16 @@ The Cocktail's choosed options in the collaborative [Ruby Style Guide](https://g
   document.saved? || document.save!
   ```
 
-In boolean expressions parenthesis are free and always help. Thanks!
+In complex boolean expressions parenthesis are free and always help. Thanks!
+
+
+## Comments
+
+* Internal projects' comments can be written in Spanish. However, they should be translated to English before becoming public.
+
+## Naming
+
+* If we need explicit access to the first object in a collection the name of its variable should begin with *first_* (for example, for the first *wadus* in the *wadus* collection we should use *first_wadus*).
+
+* If for some reason we need to access more than the first element of a collection (to the second, for example), then their variable names should finish an underscore following by their position (in our previous example we'll have the *wadus_1* and *wadus_2* variables).
 
