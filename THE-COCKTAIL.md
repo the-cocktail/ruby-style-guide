@@ -1,5 +1,7 @@
 # The Ruby Room Currently Choosed Options
 
+The Cocktail's choosed options in the collaborative [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+
 ## Source Code Layout
 
 * No spaces after `{` or before `}`:
@@ -28,3 +30,30 @@
     one.two.three
       .four
     ```
+
+## Syntax
+
+* Symbolic operators *&&/||* peferred, but english operarors *and/or* accepted for control flow.
+
+  ```Ruby
+  # bad
+  # boolean expression
+  if some_condition and some_other_condition
+    do_something
+  end
+
+  # control flow, no problem with english! :)
+  document.saved? or document.save!
+
+  # good
+  # boolean expression
+  if some_condition && some_other_condition
+    do_something
+  end
+
+  # control flow
+  document.saved? || document.save!
+  ```
+
+In boolean expressions parenthesis are free and always help. Thanks!
+
