@@ -33,7 +33,7 @@ The Cocktail's choosed options in the collaborative [Ruby Style Guide](https://g
 
 ## Syntax
 
-* Symbolic operators *&&/||* peferred, but english operarors *and/or* accepted for control flow.
+* Symbolic operators *&&/||* preferred, but english operarors *and/or* accepted for control flow.
 
   ```Ruby
   # bad
