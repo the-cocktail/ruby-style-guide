@@ -68,3 +68,27 @@ In complex boolean expressions parenthesis are free and always help. Thanks!
 
 * If for some reason we need to access more than the first element of a collection (to the second, for example), then their variable names should finish an underscore following by their position (in our previous example we'll have the *wadus_1* and *wadus_2* variables).
 
+## Strings
+
+* At The Cocktail we interpolate code **without** space after { and before } (like **#{this}** and not like **#{ this }**).
+
+* String literal quoting with single-quoted when no interpolation is needed:
+
+  * **(Option A)** Prefer single-quoted strings when you don't need
+    string interpolation or special symbols such as `\t`, `\n`, `'`,
+    etc.
+
+    ```Ruby
+    # bad
+    name = "Bozhidar"
+
+    # good
+    name = 'Bozhidar'
+    ```
+
+* Percent literal if both interpolation and double-quotes are neeed:
+
+    ```Ruby
+    greeting = %(Hello "#{name}")
+    ```
+
