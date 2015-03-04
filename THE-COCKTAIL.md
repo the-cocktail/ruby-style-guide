@@ -60,7 +60,7 @@ The Cocktail's choosed options in the collaborative
   ```
 
 In complex boolean expressions parenthesis are free and always help. Thanks!
-  [link](http://devblog.avdi.org/2014/08/26/how-to-use-rubys-english-andor-operators-without-going-nuts/).
+  ([Advi Grimm 5min. screencast about the subject](http://devblog.avdi.org/2014/08/26/how-to-use-rubys-english-andor-operators-without-going-nuts/)).
 
 
 ## Comments
@@ -108,12 +108,12 @@ In complex boolean expressions parenthesis are free and always help. Thanks!
 
 * Remember to use String#<< instead of String#+ when you need to construct
   large strings
-  [link](https://github.com/bbatsov/ruby-style-guide#concat-strings).
+  ([link](https://github.com/bbatsov/ruby-style-guide#concat-strings)).
 
 
 ## Regular Expressions
 
-First of all let's repeat this section Jamie Zawinski's quote:
+First of all let's repeat this section's Jamie Zawinski's quote:
 
 > Some people, when confronted with a problem, think
 > "I know, I'll use regular expressions." Now they have two problems.<br/>
@@ -127,4 +127,15 @@ That said...
 
 * If you need them, the creator of this style guide (Bozhidar Batsov) also
   wrote [a nice post about how sub/gsub replacements can be used with a block](http://batsov.com/articles/2013/08/30/using-gsub-with-a-block).
+
+
+## Misc
+
+Favourite ones:
+
+* Avoid methods longer than 10 LOC.
+
+* Avoid parameter lists longer than three or four parameters.
+
+* Use common sense. :)
 
