@@ -121,10 +121,10 @@ First of all let's repeat this section Jamie Zawinski's quote:
 That said...
 
 * This (almost final) section about RegExps deserves to be read: 
-  (link)[https://github.com/bbatsov/ruby-style-guide#no-regexp-for-plaintext]
+  [link](https://github.com/bbatsov/ruby-style-guide#no-regexp-for-plaintext).
 
 * If you don't understand something, please ask us!!!
 
 * If you need them, the creator of this style guide (Bozhidar Batsov) also
-  wrote [a nice post about how sub/gsub replacements can be used with a block])(http://batsov.com/articles/2013/08/30/using-gsub-with-a-block).
+  wrote [a nice post about how sub/gsub replacements can be used with a block](http://batsov.com/articles/2013/08/30/using-gsub-with-a-block).
 
